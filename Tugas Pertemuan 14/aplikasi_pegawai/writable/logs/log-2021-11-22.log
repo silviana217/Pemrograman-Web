@@ -1,0 +1,66 @@
+ERROR - 2021-11-22 21:08:29 --> Column 'username' cannot be null
+CRITICAL - 2021-11-22 21:08:29 --> Column 'username' cannot be null
+#0 C:\laragon\www\aplikasi-pegawai1\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\aplikasi-pegawai1\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\aplikasi-pegawai1\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\aplikasi-pegawai1\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->submitRegister()
+#9 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-22 21:09:05 --> Column 'username' cannot be null
+CRITICAL - 2021-11-22 21:09:05 --> Column 'username' cannot be null
+#0 C:\laragon\www\aplikasi-pegawai1\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\aplikasi-pegawai1\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\aplikasi-pegawai1\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\aplikasi-pegawai1\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->submitRegister()
+#9 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-22 21:10:27 --> Column 'username' cannot be null
+CRITICAL - 2021-11-22 21:10:27 --> Column 'username' cannot be null
+#0 C:\laragon\www\aplikasi-pegawai1\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\aplikasi-pegawai1\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\aplikasi-pegawai1\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\aplikasi-pegawai1\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->submitRegister()
+#9 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-22 21:10:53 --> Column 'username' cannot be null
+CRITICAL - 2021-11-22 21:10:53 --> Column 'username' cannot be null
+#0 C:\laragon\www\aplikasi-pegawai1\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\aplikasi-pegawai1\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\aplikasi-pegawai1\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\aplikasi-pegawai1\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\aplikasi-pegawai1\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->submitRegister()
+#9 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-22 21:38:15 --> Class 'App\Controllers\UserModel' not found
+#0 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Login->submitLogin()
+#1 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,54 @@
+CRITICAL - 2021-11-29 20:10:00 --> Class 'Config\Filters\Auth' not found
+#0 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-11-29 20:10:40 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-11-29 20:11:49 --> Class 'Config\Filters\Auth' not found
+#0 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-11-29 20:12:41 --> Class 'Config\CodeIgniter\App\Filters\Auth' not found
+#0 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-11-29 20:12:51 --> Class 'Filters\Auth' not found
+#0 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-11-29 20:38:17 --> syntax error, unexpected '}', expecting ';'
+#0 C:\laragon\www\aplikasi-pegawai1\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('register')
+#1 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('register')
+#2 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-29 21:01:23 --> Undefined variable: validation
+#0 C:\laragon\www\aplikasi-pegawai1\app\Views\register_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\aplikasi-pegawai1\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\aplikasi-pegawai1\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\aplikasi-pegawai1\system\Common.php(1092): CodeIgniter\View\View->render('register_view', Array, true)
+#4 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(17): view('register_view')
+#5 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->index()
+#6 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-29 21:01:25 --> Undefined variable: validation
+#0 C:\laragon\www\aplikasi-pegawai1\app\Views\register_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\aplikasi-pegawai1\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\aplikasi-pegawai1\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\aplikasi-pegawai1\system\Common.php(1092): CodeIgniter\View\View->render('register_view', Array, true)
+#4 C:\laragon\www\aplikasi-pegawai1\app\Controllers\Register.php(17): view('register_view')
+#5 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(802): App\Controllers\Register->index()
+#6 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\laragon\www\aplikasi-pegawai1\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\aplikasi-pegawai1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
